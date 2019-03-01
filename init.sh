@@ -2,7 +2,8 @@ sudo apt update
 sudo apt install python3.5                                                      
 virtualenv --python=/usr/bin/python3.5 venv                                     
 source venv/bin/activate                                                        
-pip3 install django  
+pip3 install django
+pip install gunicorn   
 sudo apt install htop
 
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default    
